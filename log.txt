@@ -1,0 +1,111 @@
+
+平野智彦@DESKTOP-BCI651Q MINGW64 ~/progate (master|REVERTING)
+$ git log --oneline
+afa0122 (HEAD -> master) hoge.txt testfile　の更新
+fc4913e all fileのコミット
+b372b8a Excel2回目のコミット罫線など追加
+a558fe6 Excelの1回目コミット
+20286d2 (origin/master) 6回目のコミット
+657354c これは5回目のコミットだよ
+09c111c test.txt
+fb95318 これは3回目のコミットだよ日本語追加って書いてある
+bf975c4 更新1回目
+2f86ca5 テストのテキストデータだよ1回目
+
+平野智彦@DESKTOP-BCI651Q MINGW64 ~/progate (master|REVERTING)
+$ git log --stat
+commit afa0122ea19d9a06f0c04a424b114f8dc381ff7d (HEAD -> master)
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Mon Jul 13 21:06:06 2020 +0900
+
+    hoge.txt testfile　の更新
+
+ hoge.txt      |   2 ++
+ testfile.xlsx | Bin 10091 -> 10145 bytes
+ 2 files changed, 2 insertions(+)
+
+commit fc4913e288c06c8da69a707df4992c374c54e687
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Mon Jul 13 20:59:13 2020 +0900
+
+    all fileのコミット
+
+ hoge.txt      |   2 ++
+ test.txt      |   2 +-
+ test.xlsx     |   0
+ testfile.xlsx | Bin 10019 -> 10091 bytes
+ 4 files changed, 3 insertions(+), 1 deletion(-)
+
+commit b372b8ac0927ba1d0f245b6456b1c249665e57c1
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Mon Jul 13 18:37:05 2020 +0900
+
+    Excel2回目のコミット罫線など追加
+
+ testfile.xlsx | Bin 9797 -> 10019 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a558fe6c9966cf6a8dd42469f5c02fd6d9571f27
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Mon Jul 13 18:34:28 2020 +0900
+
+    Excelの1回目コミット
+
+ testfile.xlsx | Bin 0 -> 9797 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 20286d2272c28f106540386cebd735905bafcf4d (origin/master)
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Sat Jul 11 23:46:19 2020 +0900
+
+    6回目のコミット
+
+ test.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 657354ca46f07efe04e5170ff31efba25e7bb69e
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Sat Jul 11 23:26:52 2020 +0900
+
+    これは5回目のコミットだよ
+
+ test.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 09c111c793a395ae73e288a859e7bab8ad5e5243
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Sat Jul 11 23:24:55 2020 +0900
+
+    test.txt
+
+ test.txt | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit fb9531806f8db2fce16590e823106a46e8150446
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Sat Jul 11 23:05:28 2020 +0900
+
+    これは3回目のコミットだよ日本語追加って書いてある
+
+ test.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit bf975c4a775dc2fd56383d70ca7d913bcd1ce115
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Sat Jul 11 15:16:31 2020 +0900
+
+    更新1回目
+
+ test.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 2f86ca5f8f51aeb3e3e8b02611fbbd215929704d
+Author: TOMO-2 <dousiyoo2312@gmail.com>
+Date:   Sat Jul 11 14:30:35 2020 +0900
+
+    テストのテキストデータだよ1回目
+
+ test.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+
